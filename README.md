@@ -23,7 +23,7 @@
 ?>
 ~~~
 
-#### Ahora veremos como implimir un "!Hola mundo¡" en PHP:
+#### Ahora veremos como imprimir un "!Hola mundo¡" en PHP:
 
 ~~~
 <¿php
@@ -31,6 +31,8 @@
 echo "!Hola mundo¡";
 
 print_r("!Hola mundo¡");
+
+print("!Hola mundo¡");
 
 ?>
 ~~~
