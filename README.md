@@ -19,5 +19,10 @@
 
 #### Para comenzar a codifiar en PHP debemos abrir las etiquetas del lenguaje, esto se realiza de la siguente manera:
 
+~~~
+<¿php
+
+?>
+~~~
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g-->
 
