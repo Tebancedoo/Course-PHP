@@ -23,7 +23,7 @@
 ?>
 ~~~
 
-#### Ahora veremos como imprimir un "!Hola mundo¡" en PHP:
+#### Ahora veremos como imprimir un "!Hola mundo¡" en PHP de 3 maneras distintas:
 
 ~~~
 <¿php
@@ -37,7 +37,7 @@ print("!Hola mundo¡");
 ?>
 ~~~
 
-#### Para eralizar un comentario se realiza así:
+#### Para hecer un comentario se realiza así:
 
 ~~~
 // Esto es un comentario de 1 sola linea.
