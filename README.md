@@ -2,7 +2,7 @@
 
 # Course-PHP
 
-### En este repositorio se encontrará  documentación y ejercicios con el lenguaje de programación "PHP" 
+#### En este repositorio se encontrará  documentación y ejercicios con el lenguaje de programación "PHP" 
 
 
 <img src="https://github.com/zumrudu-anka/zumrudu-anka/blob/master/images/php.svg" height="300px"/>
@@ -10,5 +10,8 @@
 
 ***
 
+# ¿Qué es PHP?
+
+#### PHP (Hypertext Preprocessor) es un lenguaje de programación interpretado​ del lado del servidor y de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.​
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g-->
 
