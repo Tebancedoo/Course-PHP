@@ -30,7 +30,7 @@
 
 echo "!Hola mundo¡";
 
-print_r ("!Hola mundo¡");
+print_r("!Hola mundo¡");
 
 ?>
 ~~~
