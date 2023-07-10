@@ -27,7 +27,10 @@
 
 ~~~
 <¿php
-echo "!Hola mundo¡"
+
+echo "!Hola mundo¡";
+
+print_r ("!Hola mundo¡");
 
 ?>
 ~~~
