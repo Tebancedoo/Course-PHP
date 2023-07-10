@@ -15,6 +15,8 @@
 ***
 ## SINTAXIS
 
+### Apertura y cierre PHP
+
 #### Para comenzar a codifiar en PHP debemos abrir las etiquetas del lenguaje, esto se realiza de la siguente manera:
 
 ~~~
@@ -22,6 +24,8 @@
 
 ?>
 ~~~
+
+### Imprimir un valor
 
 #### Ahora veremos como imprimir un "!Hola mundo¡" en PHP de 3 maneras distintas:
 
@@ -37,6 +41,8 @@ print("!Hola mundo¡");
 ?>
 ~~~
 
+### Comentarios 
+
 #### Para hecer un comentario se realiza así:
 
 ~~~
@@ -45,6 +51,7 @@ print("!Hola mundo¡");
 /* Esto es un comentario de
 varias lineas */
 ~~~
+
 
 
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g-->
