@@ -10,12 +10,14 @@
 
 ***
 
-# ¿Qué es PHP?
+## ¿Qué es PHP?
 
 #### PHP (Hypertext Preprocessor) es un lenguaje de programación interpretado​ del lado del servidor y de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.​
 
 ***
-# SINTAXIS
+## SINTAXIS
+
+####
 
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g-->
 
