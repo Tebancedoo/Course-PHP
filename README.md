@@ -23,7 +23,14 @@
 ?>
 ~~~
 
-#### Ahora veremos como implimir un "!Hola mundo¡" en PHP
+#### Ahora veremos como implimir un "!Hola mundo¡" en PHP:
+
+~~~
+<¿php
+echo "!Hola mundo¡"
+
+?>
+~~~
 
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g-->
 
