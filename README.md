@@ -37,5 +37,15 @@ print("!Hola mundo¡");
 ?>
 ~~~
 
+#### Para eralizar un comentario se realiza así:
+
+~~~
+// Esto es un comentario de 1 sola linea.
+
+/* Esto es un comentario de
+varias lineas */
+~~~
+
+
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g-->
 
