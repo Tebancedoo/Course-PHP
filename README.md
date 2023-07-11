@@ -133,10 +133,10 @@ echo "Hola".$nombre;
 - If: If evalua una sentencia, si la expresión es evaluada a su valor booleano. Si la expresión se evalúa como true, PHP ejecutará la sentencia y si se evalúa como false la ignoradá.
 - Else: El else extiende una sentencia if para ejecutar una sentencia en caso que la expresión en la sentencia if se evalúe como false.
 - Else if: El else if extiende una sentencia if para ejecutar una sentencia diferente en caso que la expresión if original se evalúe como false. Esa expresión alternativa sólo se ejecutará si la expresión condicional del elseif se evalúa como true.
-- While:
-- Do while:
-- For:
-- Foreach:
+- While: While ejecuta las sentencias anidadas, mientras la expresión while sea evalúada como true.
+- Do while: Los bucles do-while son muy similares a los bucles while, excepto que la expresión verdadera es verificada al final de cada iteración en lugar que al principio. 
+- For: For ejecuta una expresión, si una expresión se evalúa como true, el bucle continúa y se ejecutan la/s sentencia/s anidada/s. Si se evalúa como false, finaliza la ejecución del bucle.
+- Foreach: 
 - Break:
 - Continue:
 - Switch:
