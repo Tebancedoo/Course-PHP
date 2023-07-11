@@ -119,9 +119,9 @@ echo "Hola".$nombre;
 - Float o flotantes: Los números de punto flotante son los Q = {..., 1.23456789, 3,1416, ...}.
 - Strings o cadenas de texto: Un string, o cadena, es una serie de caracteres donde cada carácter es lo mismo que un byte ("!hola mundo")
 - Numeric strings o cadenas de numero: Una cadena de PHP se considera numérica si se puede interpretar como un int o un float (0-9)
-- Arrays o arreglos: Un arreglo es una estructura de datos que te permite almacenar múltiples elementos en una sola variable. ( $array = array ("foo" => "bar","bar" => "foo",);)
-- Iterables: 
-- Objects u objetos:
+- Arrays o arreglos: Un arreglo es una estructura de datos que te permite almacenar múltiples elementos en una sola variable ( $array = array ("foo" => "bar","bar" => "foo",);)
+- Iterables: Iterable es un seudotipo introducido en PHP 7.1. Acepta cualquier array u objeto que implemente la interfaz Traversable function (foo(iterable $iterable) { foreach ($iterable as $valor) { } })
+- Objects u objetos: es una instancia de una clase, y puedes crear múltiples instancias de la misma clase ( class foo{ function hacer_algo() { echo "Haciendo algo."; }})
 - Resourse o recurso:
 - Null o nulos:
 - Callbacks o llamadas de retorno:
