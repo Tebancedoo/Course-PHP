@@ -204,10 +204,48 @@ echo cuadrado(4);   // imprime '16'.
 
 ~~~
 
+### Funciones anónimas
 
+#### Las funciones anónimas, también conocidas como cierres (closures), permiten la creación de funciones que no tienen un nombre especificado.
 
+~~~
 
+<?php
+$saludo = function($nombre)
+{
+    printf("Hola %s\r\n", $nombre);
+};
 
+$saludo('Mundo');
+$saludo('PHP');
+?>
+
+~~~
+
+### Funciones flecha
+
+#### Las funciones de las flechas tienen la forma básica fn (argument_list) => expr, de ahí su nombre, aparte estas soportan las mismas caracteristicas que las funciones anonimas.
+
+~~~
+
+<?php
+
+$y = 1;
+
+$fn1 = fn($x) => $x + $y;
+// equivalent to using $y by value:
+$fn2 = function ($x) use ($y) {
+    return $x + $y;
+};
+
+var_export($fn1(3));
+?>
+
+~~~
+
+***
+
+## Clases y objetos
 
 
 
