@@ -157,6 +157,10 @@ echo "Hola".$nombre;
 
 #### Las funciones de PHP, son acciones que se realizan de manera independiente. Son acciones que hacen que el código sea más legible y sencillo de depurar.
 
+### Funciones definidas por el usuario
+
+#### Estas funciones son creadas por el usuario y no vienen integradas en PHP.
+
 ~~~
 
 <?php
@@ -169,9 +173,36 @@ function foo($arg_1, $arg_2, /* ..., */ $arg_n)
 
 ~~~
 
+### Argumentos de funciones 
 
+#### Cualquier información puede ser pasada a las funciones mediante la lista de argumentos, la cual es una lista de expresiones delimitadas por comas. Los argumentos son evaluados de izquierda a derecha.
 
+~~~
 
+<?php
+function tomar_array($entrada)
+{
+    echo "$entrada[0] + $entrada[1] = ".$entrada[0]+$entrada[1];
+}
+?>
+
+~~~
+
+### Devolver valores
+
+#### Los valores son devueltos usando la sentencia opcional return. Se puede devolver cualquier tipo, incluidos arrays y objetos.
+
+~~~
+
+<?php
+function cuadrado($núm)
+{
+    return $núm * $núm;
+}
+echo cuadrado(4);   // imprime '16'.
+?>
+
+~~~
 
 
 
