@@ -72,6 +72,7 @@ $nombre = '';
 
 <¿php
 
+// Recibir la información del formulario (con el metodo POST)
 $nombre =$_POST['txtnombre']
 
 $nombre = 'nombre';
@@ -79,6 +80,34 @@ $nombre = 'nombre';
 ?>
 
 ~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
