@@ -149,8 +149,17 @@ echo "Hola".$nombre;
 - Include_once: La sentencia include_once incluye y evalúa el fichero especificado durante la ejecución del script.
 - Goto: El operador goto puede ser usado para saltar a otra sección en el programa. 
 
+###
 
-https://www.php.net/manual/es/language.control-structures.php 
+
+
+
+
+
+
+
+
+
 
 
 
