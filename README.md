@@ -52,6 +52,47 @@ print("!Hola mundo¡");
 varias lineas */
 ~~~
 
+### Declarar variables
+
+#### Las variables son valores que pueden ir cambiando a lo largo del codigo, estas se declaran así:
+
+~~~
+<¿php
+
+$nombre = 'nombre';
+
+?>
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g--> <!--14:38-->
