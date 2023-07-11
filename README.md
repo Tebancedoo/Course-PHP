@@ -128,7 +128,27 @@ echo "Hola".$nombre;
 
 ### Estructuras de control
 
-#### Las estructuras de control
+#### Las estructuras de control son sentencias que nos permiten controlar el flujo de nuestro codigo basandose en cirtos factores.
+
+- If:
+- Else:
+- Else if:
+- While:
+- Do while:
+- For:
+- Foreach:
+- Break:
+- Continue:
+- Switch:
+- Match:
+- Declare:
+- Return:
+- Require:
+- Include:
+- Require_once:
+- Include_once:
+- Goto:
+
 
 https://www.php.net/manual/es/language.control-structures.php 
 
