@@ -126,7 +126,9 @@ echo "Hola".$nombre;
 - Null o nulos: El valor especial null representa una variable sin valor.
 - Callbacks o llamadas de retorno: Una función callback, también conocida como solo callback, es una función que se pasa como argumento a otra función.
 
-### Estructuras de control
+***
+
+## Estructuras de control
 
 #### Las estructuras de control son sentencias que nos permiten controlar el flujo de nuestro codigo basandose en cirtos factores.
 
@@ -149,7 +151,24 @@ echo "Hola".$nombre;
 - Include_once: La sentencia include_once incluye y evalúa el fichero especificado durante la ejecución del script.
 - Goto: El operador goto puede ser usado para saltar a otra sección en el programa. 
 
-###
+***
+
+## Funciones 
+
+#### Las funciones de PHP, son acciones que se realizan de manera independiente. Son acciones que hacen que el código sea más legible y sencillo de depurar.
+
+~~~
+
+<?php
+function foo($arg_1, $arg_2, /* ..., */ $arg_n)
+{
+    echo "Función de ejemplo.\n";
+    return $valor_devuelto;
+}
+?>
+
+~~~
+
 
 
 
