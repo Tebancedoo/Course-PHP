@@ -82,7 +82,19 @@ $nombre = 'nombre';
 
 ~~~
 
+###  Concatenar strings
 
+#### Vamos a concatenar un hojla munod con el valor de la variable "$nombre":
+
+~~~
+
+<¿php
+
+echo "Hola".$nombre
+
+?>
+
+~~~
 
 
 
