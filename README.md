@@ -110,6 +110,24 @@ echo "Hola".$nombre;
 
 ~~~
 
+### Tipos de datos 
+
+#### Los tipos de datos son atributos que le indican a la computadora sobre la clase de datos que se va a manejar:
+
+- Booleans o booleanos: Un boolean expresa un valor que indica verdad. Puede ser true (verdadero) o false (falso).
+- Ints o enteros: Un número entero (o integer) es un número del conjunto ℤ = {..., -2, -1, 0, 1, 2, ...}.
+- Float o flotantes: Los números de punto flotante son los Q = {..., 1.23456789, 3,1416, ...}.
+- Strings o cadenas de texto: Un string, o cadena, es una serie de caracteres donde cada carácter es lo mismo que un byte ("!hola mundo")
+- Numeric strings o cadenas de numero: Una cadena de PHP se considera numérica si se puede interpretar como un int o un float (0-9)
+- Arrays o arreglos: Un arreglo es una estructura de datos que te permite almacenar múltiples elementos en una sola variable. ( $array = array ("foo" => "bar","bar" => "foo",);)
+- Iterables: 
+- Objects u objetos:
+- Resourse o recurso:
+- Null o nulos:
+- Callbacks o llamadas de retorno:
+
+### Manipulación de tipos
+
 
 
 
