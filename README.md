@@ -64,7 +64,7 @@ $nombre = '';
 ?>
 ~~~
 
-### Declrar contantes
+### Declarar contantes
 
 #### Las contantes son valores al igual que las variables, con la diferencia de que las contantes no pueden cambiar de valor a lo largo del codigo, estas se declaran así:
 
