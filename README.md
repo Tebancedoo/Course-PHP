@@ -64,6 +64,20 @@ $nombre = '';
 ?>
 ~~~
 
+### Declrar contantes
+
+#### Las contantes son valores al igual que las variables, con la diferencia de que las contantes no pueden cambiar de valor a lo largo del codigo, estas se declaran así:
+
+~~~
+
+define("CONSTANTE", "Hola mundo.");
+
+// Imprimir contante
+
+echo CONSTANTE; 
+
+~~~
+
 ### Asignar valor a variable
 
 #### Siguendo con el ejemplo anterior, vamos a asignarle un valor a una variable: 
@@ -95,6 +109,7 @@ echo "Hola".$nombre;
 ?>
 
 ~~~
+
 
 
 
