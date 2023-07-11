@@ -126,7 +126,9 @@ echo "Hola".$nombre;
 - Null o nulos: El valor especial null representa una variable sin valor.
 - Callbacks o llamadas de retorno: Una función callback, también conocida como solo callback, es una función que se pasa como argumento a otra función.
 
-### Manipulación de tipos
+### Estructuras de control
+
+#### Las estructuras de control
 
 
 
