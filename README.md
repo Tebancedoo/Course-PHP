@@ -247,7 +247,48 @@ var_export($fn1(3));
 
 ## Clases y objetos
 
+#### Las clases son el concepto en el cual se fundamenta la programación orientada a objetos, y sus instancias son las que crean objetos.
 
+### Clases
+
+#### La definición básica de una clase comienza con la palabra reservada class, seguida de un nombre de clase, y continuando con un par de llaves que encierran las definiciones de las propiedades y métodos pertenecientes a dicha clase.
+
+~~~
+
+<?php
+class ClaseSencilla
+{
+    // Declaración de una propiedad
+    public $var = 'un valor predeterminado';
+
+    // Declaración de un método
+    public function mostrarVar() {
+        echo $this->var;
+    }
+}
+?>
+
+~~~
+
+### Contantes en clases
+
+#### Es posible definir valores constantes en función de cada clase manteniéndola invariable. Las constantes se diferencian de las variables comunes en que no utilizan el símbolo $ al declararlas o emplearlas. La visibilidad predeterminada de las constantes de clase es public.
+
+~~~
+
+<?php
+class MiClase
+{
+    const CONSTANTE = 'valor constante';
+
+    function mostrarConstante() {
+        echo  self::CONSTANTE . "\n";
+    }
+}
+
+?>
+
+~~~
 
 
 
