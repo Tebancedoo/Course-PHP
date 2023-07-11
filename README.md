@@ -75,6 +75,7 @@ $nombre = '';
 // Recibir la información del formulario (con el metodo POST)
 $nombre =$_POST['txtnombre']
 
+// Asignar un valor a una variable
 $nombre = 'nombre';
 
 ?>
