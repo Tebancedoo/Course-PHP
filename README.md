@@ -59,10 +59,54 @@ varias lineas */
 ~~~
 <¿php
 
-$nombre = 'nombre';
+$nombre = '';
 
 ?>
 ~~~
+
+### Asignar valor a variable
+
+#### Siguendo con el ejemplo anterior, vamos a asignarle un valor a una variable: 
+
+~~~
+
+<¿php
+
+$nombre =$_POST['txtnombre']
+
+$nombre = 'nombre';
+
+?>
+
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
