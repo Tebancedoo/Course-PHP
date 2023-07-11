@@ -136,18 +136,18 @@ echo "Hola".$nombre;
 - While: While ejecuta las sentencias anidadas, mientras la expresión while sea evalúada como true.
 - Do while: Los bucles do-while son muy similares a los bucles while, excepto que la expresión verdadera es verificada al final de cada iteración en lugar que al principio. 
 - For: For ejecuta una expresión, si una expresión se evalúa como true, el bucle continúa y se ejecutan la/s sentencia/s anidada/s. Si se evalúa como false, finaliza la ejecución del bucle.
-- Foreach: 
-- Break:
-- Continue:
-- Switch:
-- Match:
-- Declare:
-- Return:
-- Require:
-- Include:
-- Require_once:
-- Include_once:
-- Goto:
+- Foreach: El constructor foreach proporciona un modo sencillo de iterar sobre arrays. foreach funciona sólo sobre arrays y objetos, y emitirá un error al intentar usarlo con una variable de un tipo diferente de datos o una variable no inicializada
+- Break: Break finaliza la ejecución de la estructura for, foreach, while, do-while o switch en curso.
+- Continue: Continue se utiliza dentro de las estructuras iterativas para saltar el resto de la iteración actual del bucle y continuar la ejecución en la evaluación de la condición, para luego comenzar la siguiente iteración.
+- Switch: Swithc permite comprar varios valores y ejecutar una parte distinta de codigo dependiendo del valor proporcionado.
+- Match: La expresión match ramifica la evaluación basada en una comprobación de identidad de un valor.
+- Declare: El constructor declare es usado para fijar directivas de ejecución para un bloque de código.
+- Return: Return devuelve el control del programa al módulo que lo invoca. La ejecución vuelve a la siguiente expresión después del módulo que lo invoca.
+- Require: Require es idéntico a include excepto que en caso de fallo producirá un error fatal de nivel E_COMPILE_ERROR.
+- Include: La sentencia include incluye y evalúa el archivo especificado.
+- Require_once: La sentencia require_once es idéntica a require excepto que PHP verificará si el archivo ya ha sido incluido y si es así, no se incluye (require) de nuevo.
+- Include_once: La sentencia include_once incluye y evalúa el fichero especificado durante la ejecución del script.
+- Goto: El operador goto puede ser usado para saltar a otra sección en el programa. 
 
 
 https://www.php.net/manual/es/language.control-structures.php 
