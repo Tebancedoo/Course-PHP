@@ -495,7 +495,25 @@ $copia_de_objeto = clone $objeto;
 
 ~~~
 
+### Comparación de objetos 
 
+#### Al utilizar el operador de comparación (==), se comparan de una forma sencilla las variables de cada objeto, es decir: dos instancias de un objeto son iguales si tienen los mismos atributos y valores (los valores se comparan con ==), y son instancias de la misma clase.
+
+~~~
+
+<?php
+
+function compararObjetos(&$o1, &$o2)
+{
+    echo 'o1 == o2 : ' . bool2str($o1 == $o2) . "\n";
+    echo 'o1 != o2 : ' . bool2str($o1 != $o2) . "\n";
+    echo 'o1 === o2 : ' . bool2str($o1 === $o2) . "\n";
+    echo 'o1 !== o2 : ' . bool2str($o1 !== $o2) . "\n";
+}
+
+?>
+
+~~~
 
 
 
