@@ -270,7 +270,7 @@ class ClaseSencilla
 
 ~~~
 
-### Contantes en clases
+### Constantes en clases
 
 #### Es posible definir valores constantes en función de cada clase manteniéndola invariable. Las constantes se diferencian de las variables comunes en que no utilizan el símbolo $ al declararlas o emplearlas. La visibilidad predeterminada de las constantes de clase es public.
 
@@ -290,9 +290,24 @@ class MiClase
 
 ~~~
 
+### Visibilidad en clases
 
+#### En PHPhay 3 tipos de visibilidad, 'public' se puede acceder desde donde sea; a los miembros declarados como 'protected', solo desde la misma clase, mediante clases heredadas o desde la clase padre y a los miembros declarados como 'private' únicamente se puede acceder desde la clase que los definió.
 
+~~~
 
+<?php
+/**
+ * Definición de MyClass
+ */
+class MyClass
+{
+    public $public = 'Public';
+    protected $protected = 'Protected';
+    private $private = 'Private';
+?>
+
+~~~
 
 
 
