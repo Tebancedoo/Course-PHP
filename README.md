@@ -568,11 +568,24 @@ echo constant($d);
 - $argc: El número de argumentos pasados a un script.
 - $argv: Array de argumentos pasados a un script.
 
+***
 
+## Exepciones predefinidas
 
+### Execpciones predefinidas
 
+#### Los mensajes de eror que vienen con PHP desde su descarga
 
-
+- Exception:  
+- ErrorException: 
+- Error: 
+- ArgumentCountError: 
+- ArithmeticError: 
+- AssertionError: 
+- DivisionByZeroError: 
+- CompileError: 
+- ParseError: 
+- TypeError: 
 
 
 
