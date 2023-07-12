@@ -292,7 +292,7 @@ class MiClase
 
 ### Visibilidad en clases
 
-#### En PHPhay 3 tipos de visibilidad, 'public' se puede acceder desde donde sea; a los miembros declarados como 'protected', solo desde la misma clase, mediante clases heredadas o desde la clase padre y a los miembros declarados como 'private' únicamente se puede acceder desde la clase que los definió.
+#### En PHP hay 3 tipos de visibilidad, 'public' se puede acceder desde donde sea; a los miembros declarados como 'protected', solo desde la misma clase, mediante clases heredadas o desde la clase padre y a los miembros declarados como 'private' únicamente se puede acceder desde la clase que los definió.
 
 ~~~
 
@@ -318,22 +318,172 @@ class MyClass
 ~~~
 
 
+### Herencia de objetos 
 
+#### La herencia es un principio de programación bien establecido y PHP hace uso de él en su modelado de objetos. Por ejemplo, cuando se extiende una clase, la subclase hereda todos los métodos públicos y protegidos de la clase padre. A menos que una clase sobrescriba esos métodos, mantendrán su funcionalidad original.
 
+~~~
 
+<?php
 
+class A {
+    public int $prop;
+}
+class B extends A { //Clase B hereda atributos y metodos de la clase A
+    // Ilegal: lectura-escritura -> sólo lectura
+    public readonly int $prop;
+}
+?>
 
+~~~
 
+### Operador de resolución de ámbito (::)
 
+#### El Operador de Resolución de Ámbito (también denominado Paamayim Nekudotayim) o en términos simples, el doble dos-puntos, es un token que permite acceder a elementos estáticos, constantes, y sobrescribir propiedades o métodos de una clase.
 
+~~~
 
+<?php
+class MyClass {
+    const CONST_VALUE = 'Un valor constante';
+}
 
+$classname = 'MyClass';
+echo $classname::CONST_VALUE; // A partir de PHP 5.3.0
 
+echo MyClass::CONST_VALUE;
+?>
 
+~~~
 
+### La palabra reservada "static"
 
+#### Declarar propiedades o métodos de clases como estáticos los hacen accesibles sin la necesidad de instanciar la clase. Una propiedad declarada como static no puede ser accedida con un objeto de clase instanciado (aunque un método estático sí lo puede hacer).
 
+~~~
 
+<?php
+class Foo {
+    public static function unMetodoEstatico() {
+        // ...
+    }
+}
+
+Foo::unMetodoEstatico();
+$nombre_clase = 'Foo';
+$nombre_clase::unMetodoEstatico(); // A partir de PHP 5.3.0
+?>
+
+~~~
+
+### Abstracción de clases
+
+#### Las clases definidas como abstractas no se pueden instanciar y cualquier clase que contiene al menos un método abstracto debe ser definida como tal. Los métodos definidos como abstractos simplemente declaran la firma del método, pero no pueden definir la implementación.
+
+~~~
+
+<?php
+abstract class ClaseAbstracta
+{
+    // Forzar la extensión de clase para definir este método
+    abstract protected function getValor();
+    abstract protected function valorPrefijo($prefijo);
+
+    // Método común
+    public function imprimir() {
+        print $this->getValor() . "\n";
+    }
+}
+?>
+
+~~~
+
+### Interfaces de objetos
+
+#### Las interfaces de objetos permiten crear código con el cual especificar qué métodos deben ser implementados por una clase, sin tener que definir cómo estos métodos son manipulados.
+
+~~~
+
+<?php
+
+// Declarar la interfaz 'iTemplate'
+interface iTemplate
+{
+    public function setVariable($name, $var);
+    public function getHtml($template);
+}
+
+// Implementar la interfaz
+// Ésto funcionará
+class Template implements iTemplate
+{
+    private $vars = array();
+
+    public function setVariable($name, $var)
+    {
+        $this->vars[$name] = $var;
+    }
+
+    public function getHtml($template)
+    {
+        foreach($this->vars as $name => $value) {
+            $template = str_replace('{' . $name . '}', $value, $template);
+        }
+
+        return $template;
+    }
+}
+
+?>
+
+~~~
+
+### Clases anónimas 
+
+#### Las clases anónimas son útiles cuando es necesario crear objetos sencillos y únicos.
+
+~~~
+
+<?php
+
+$util->setLogger(new class {
+    public function log($msg)
+    {
+        echo $msg;
+    }
+});
+
+?>
+
+~~~
+
+### Iteración de objetos
+
+#### recorrer una lista de elementos con, por ejemplo, una sentencia foreach. Por defecto, se utilizarán todas las propiedades visibles para la iteración.
+
+~~~
+
+<?php
+class MiClase
+{
+    public $var1 = 'valor 1';
+    public $var2 = 'valor 2';
+    public $var3 = 'valor 3';
+
+    protected $protected = 'variable protegida';
+    private   $private   = 'variable privada';
+
+    function iterateVisible() {
+       echo "MiClase::iterateVisible:\n";
+       foreach ($this as $clave => $valor) {
+           print "$clave => $valor\n";
+       }
+    }
+}
+
+?>
+
+~~~
 
 
 
