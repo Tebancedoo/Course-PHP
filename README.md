@@ -576,16 +576,16 @@ echo constant($d);
 
 #### Los mensajes de eror que vienen con PHP desde su descarga
 
-- Exception:  
-- ErrorException: 
-- Error: 
-- ArgumentCountError: 
-- ArithmeticError: 
-- AssertionError: 
-- DivisionByZeroError: 
-- CompileError: 
-- ParseError: 
-- TypeError: 
+- Exception: Exception es la clase base para todas las excepciones en PHP 5, y la clase base para todas las excepciones de usuario. 
+- ErrorException: Una excepción de error.
+- Error: Error es la clase base para todos los errores de PHP internos.
+- ArgumentCountError: ArgumentCountError es lanzado cuando muy pocos argumentos son pasados a una funcion o método definido por el usuario.
+- ArithmeticError: Un ArithmeticError es lanzado cuando ocurre un error durante la realización de operaciones matemáticas. 
+- AssertionError: Un AssertionError se lanza cuando falla una afirmación realizada mediante assert().
+- DivisionByZeroError: Un DivisionByZeroError se lanza al intentar dividir un número por cero.
+- CompileError: CompileError es lanzado por algunos errores de compilación, que anteriormente emitió un error fatal.
+- ParseError: Un ParseError se lanza cuando ocurre un error al analizar código de PHP, tal como cuando se llama a eval().
+- TypeError: Existen tres escenarios donde de podría lanzar un TypeError. El primero es donde el tipo de argumento pasado a una función no coincide con su correspondiente tipo de parámetro declarado. El segundo es donde un valor devuelto desde una función no coincide con el tipo de devolución declarado en la función. El tercero es donde se proporciona un número inválido de argumentos a una función interna de PHP (solamente en modo estricto). 
 
 
 
