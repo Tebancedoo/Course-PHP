@@ -515,7 +515,35 @@ function compararObjetos(&$o1, &$o2)
 
 ~~~
 
+*** 
 
+## Espacios de nombre
+
+### Espacios de nombre
+
+#### ¿Qué son los espacios de nombres? En su definición más aceptada, los espacios de nombres son una manera de encapsular elementos. 
+
+~~~
+
+<?php
+namespace mi\nombre; 
+
+class MiClase {}
+function mifunción() {}
+const MICONSTANTE = 1;
+
+$a = new MiClase;
+$c = new \mi\nombre\MiClase; 
+
+$a = strlen('hola');
+
+$d = namespace\MICONSTANTE; 
+                            
+$d = __NAMESPACE__ . '\MICONSTANTE';
+echo constant($d); 
+?>
+
+~~~
 
 
 
