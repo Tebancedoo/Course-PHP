@@ -545,7 +545,20 @@ echo constant($d);
 
 ~~~
 
+*** 
 
+## Variables predefinidas
+
+### Variables predefinidas
+
+#### Las variables representan de todo, desde variables externas hasta variables de entorno incorporadas, desde los últimos mensajes de error hasta los últimos encabezados recuperados.
+
+- Superglobals: Superglobals son variables internas que están disponibles siempre en todos los ámbitos
+- $GLOBALS: Hace referencia a todas las variables disponibles en el ámbito global
+- $_SERVER: Información del entorno del servidor y de ejecución
+- $_GET: Variables HTTP GET
+- $_POST: Variables POST de HTTP
+- $_FILES: Variables de subida de ficheros HTTP
 
 
 
