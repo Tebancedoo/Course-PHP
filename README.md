@@ -485,7 +485,15 @@ class MiClase
 
 ~~~
 
+### Clonación de objetos
 
+#### Para crear una copia de un objeto se utiliza la palabra clave clone (que invoca, si fuera posible, al método __clone() del objeto). No se puede llamar al método __clone() de un objeto directamente.
+
+~~~
+
+$copia_de_objeto = clone $objeto;
+
+~~~
 
 
 
