@@ -591,7 +591,32 @@ echo constant($d);
 
 ## Atributos predefinidos
 
-### 
+### La clase atributos
+
+####
+
+~~~
+
+<?php
+final class Attribute {
+/* Constantes */
+const int TARGET_CLASS;
+const int TARGET_FUNCTION;
+const int TARGET_METHOD;
+const int TARGET_PROPERTY;
+const int TARGET_CLASS_CONSTANT;
+const int TARGET_PARAMETER;
+const int TARGET_ALL;
+const int IS_REPEATABLE;
+/* Propiedades */
+public int $flags;
+/* Métodos */
+public __construct(int $flags = Attribute::TARGET_ALL)
+}
+
+?>
+
+~~~
 
 <!--https://www.php.net/manual/es/-->
 
