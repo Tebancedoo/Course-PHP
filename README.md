@@ -630,7 +630,9 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 
 ### Protocolos y envolturas
 
-####
+#### PHP incorpora de serie envolturas para distintos protocolos tipo URL para trabajar junto con funciones del sistema de ficheros, como fopen(), copy(), file_exists() y filesize(). Además de estas envolturas, se pueden definir por el usuario utilizando la función stream_wrapper_register().
+
+
 
 
 <!--https://www.php.net/manual/es/-->
