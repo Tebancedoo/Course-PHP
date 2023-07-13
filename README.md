@@ -632,18 +632,18 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 
 #### PHP incorpora de serie envolturas para distintos protocolos tipo URL para trabajar junto con funciones del sistema de ficheros, como fopen(), copy(), file_exists() y filesize(). Además de estas envolturas, se pueden definir por el usuario utilizando la función stream_wrapper_register().
 
-- file:// — Acceso al sistema de ficheros local
-- http:// — Acceso a URLS en HTTP(s)
-- ftp:// — Acceso a URLs por FTP(s)
-- php:// — Acceso a distintos flujos de E/S
-- zlib:// — Flujos de compresión
-- data:// — Data (RFC 2397)
-- glob:// — Encuentra las rutas que coincidan con el patrón
-- phar:// — Archivo PHP
-- ssh2:// — Secure Shell 2
- rar:// — RAR
-- ogg:// — Flujos de audio
-- expect:// — Flujos de Interacción de Procesos
+- file:// — Acceso al sistema de ficheros local.
+- http:// — Acceso a URLS en HTTP(s).
+- ftp:// — Acceso a URLs por FTP(s).
+- php:// — Acceso a distintos flujos de E/S.
+- zlib:// — Flujos de compresión.
+- data:// — Data (RFC 2397).
+- glob:// — Encuentra las rutas que coincidan con el patrón.
+- phar:// — Archivo PHP.
+- ssh2:// — Secure Shell 2.
+ rar:// — RAR.
+- ogg:// — Flujos de audio.
+- expect:// — Flujos de Interacción de Procesos.
 
 
 <!--https://www.php.net/manual/es/-->
