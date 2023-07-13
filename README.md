@@ -587,7 +587,9 @@ echo constant($d);
 - ParseError: Un ParseError se lanza cuando ocurre un error al analizar código de PHP, tal como cuando se llama a eval().
 - TypeError: Existen tres escenarios donde de podría lanzar un TypeError. El primero es donde el tipo de argumento pasado a una función no coincide con su correspondiente tipo de parámetro declarado. El segundo es donde un valor devuelto desde una función no coincide con el tipo de devolución declarado en la función. El tercero es donde se proporciona un número inválido de argumentos a una función interna de PHP (solamente en modo estricto). 
 
+***
 
+##
 
 <!--https://www.php.net/manual/es/-->
 
