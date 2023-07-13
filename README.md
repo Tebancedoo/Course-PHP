@@ -589,7 +589,9 @@ echo constant($d);
 
 ***
 
-##
+## Atributos predefinidos
+
+### 
 
 <!--https://www.php.net/manual/es/-->
 
