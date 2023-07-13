@@ -646,7 +646,7 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 - expect:// — Flujos de Interacción de Procesos.
 
 
-<!--https://www.php.net/manual/es/-->
+ https://www.php.net/manual/es/
 
 <!--https://www.youtube.com/watch?v=nCB1gEkRZ1g--> <!--22:30-->
 
