@@ -593,7 +593,7 @@ echo constant($d);
 
 ### La clase atributos
 
-####
+#### Los atributos ofrecen la capacidad de agregar información de metadatos estructurada y legible por máquina en las declaraciones en el código. A continuación los veremos implementados
 
 ~~~
 
