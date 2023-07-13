@@ -628,6 +628,9 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 
 ## Protocolo y envolturas
 
+### Protocolos y envolturas
+
+####
 
 
 <!--https://www.php.net/manual/es/-->
