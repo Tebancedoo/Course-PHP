@@ -64,9 +64,9 @@ $nombre = '';
 ?>
 ~~~
 
-### Declarar contantes
+### Declarar constantes
 
-#### Las contantes son valores al igual que las variables, con la diferencia de que las contantes no pueden cambiar de valor a lo largo del codigo, estas se declaran así:
+#### Las constantes son valores al igual que las variables, con la diferencia de que las constantes no pueden cambiar de valor a lo largo del codigo. Estas se declaran así:
 
 ~~~
 
