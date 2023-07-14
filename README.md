@@ -27,7 +27,7 @@
 
 ### Imprimir un valor
 
-#### Ahora veremos como imprimir un "!Hola mundo¡" en PHP de 3 maneras distintas:
+#### Ahora veremos como imprimir un "!Hola mundo¡" en PHP, de 3 maneras distintas:
 
 ~~~
 <¿php
