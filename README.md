@@ -78,7 +78,7 @@ echo CONSTANTE;
 
 ~~~
 
-### Asignar valor a variable
+### Asignar valor a una variable
 
 #### Siguendo con el ejemplo anterior, vamos a asignarle un valor a una variable: 
 
@@ -98,7 +98,7 @@ $nombre = 'nombre';
 
 ###  Concatenar strings
 
-#### Vamos a concatenar un hojla munod con el valor de la variable "$nombre":
+#### Vamos a concatenar un hola mundo con el valor de la variable "$nombre":
 
 ~~~
 
