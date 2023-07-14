@@ -43,7 +43,7 @@ print("!Hola mundo¡");
 
 ### Comentarios 
 
-#### Para hecer un comentario se realiza así:
+#### Para hacer un comentario se realiza así:
 
 ~~~
 // Esto es un comentario de 1 sola linea.
