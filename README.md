@@ -636,8 +636,8 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 - http:// - Acceso a URLS en HTTP(s).
 - ftp:// - Acceso a URLs por FTP(s).
 - php:// - Acceso a distintos flujos de E/S.
-- zlib:// — Flujos de compresión.
-- data:// — Data (RFC 2397).
+- zlib:// - Flujos de compresión.
+- data:// - Data (RFC 2397).
 - glob:// — Encuentra las rutas que coincidan con el patrón.
 - phar:// — Archivo PHP.
 - ssh2:// — Secure Shell 2.
