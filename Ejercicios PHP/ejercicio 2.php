@@ -1,6 +1,6 @@
 <?php
 
-    if ($_POST){ // Utilizo el condicional if para evitar el error de "array key undefined"
+    if ($_POST){ // Utilizo el condicional if para validar se se realizo un envio, y así evitar el error 
 
         $nombre = $_POST["txtNombre"];// Defino la variable para que reciba la información del formulario
 
