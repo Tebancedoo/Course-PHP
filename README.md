@@ -638,9 +638,9 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 - php:// - Acceso a distintos flujos de E/S.
 - zlib:// - Flujos de compresión.
 - data:// - Data (RFC 2397).
-- glob:// — Encuentra las rutas que coincidan con el patrón.
-- phar:// — Archivo PHP.
-- ssh2:// — Secure Shell 2.
+- glob:// - Encuentra las rutas que coincidan con el patrón.
+- phar:// - Archivo PHP.
+- ssh2:// - Secure Shell 2.
  rar:// — RAR.
 - ogg:// — Flujos de audio.
 - expect:// — Flujos de Interacción de Procesos.
