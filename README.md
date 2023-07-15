@@ -641,9 +641,9 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 - glob:// - Encuentra las rutas que coincidan con el patrón.
 - phar:// - Archivo PHP.
 - ssh2:// - Secure Shell 2.
- rar:// — RAR.
-- ogg:// — Flujos de audio.
-- expect:// — Flujos de Interacción de Procesos.
+ rar:// - RAR.
+- ogg:// - Flujos de audio.
+- expect:// - Flujos de Interacción de Procesos.
 
 
 ##### Si deseas informarte más sobre todo lo tratado en esta documentación, puedes visitar: https://www.php.net/manual/es/
