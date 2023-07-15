@@ -634,7 +634,7 @@ public __construct(int $flags = Attribute::TARGET_ALL)
 
 - file:// - Acceso al sistema de ficheros local.
 - http:// - Acceso a URLS en HTTP(s).
-- ftp:// — Acceso a URLs por FTP(s).
+- ftp:// - Acceso a URLs por FTP(s).
 - php:// — Acceso a distintos flujos de E/S.
 - zlib:// — Flujos de compresión.
 - data:// — Data (RFC 2397).
