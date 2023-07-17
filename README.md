@@ -104,7 +104,7 @@ $nombre = 'nombre';
 
 <¿php
 
-echo "Hola".$nombre; //esta forma de concatenar
+echo "Hola".$nombre; //esta forma de concatenar solo funciona con "echo"
 
 ?>
 
