@@ -17,7 +17,7 @@
 
 ### Apertura y cierre PHP
 
-#### Para comenzar a codifiar en PHP debemos abrir las etiquetas del lenguaje, esto se realiza de la siguente manera:
+#### Para comenzar a codifiar en PHP debemos abrir las etiquetas del lenguaje. esto se realiza de la siguente manera:
 
 ~~~
 <¿php
