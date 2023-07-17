@@ -104,7 +104,7 @@ $nombre = 'nombre';
 
 <¿php
 
-echo "Hola".$nombre;
+echo "Hola".$nombre; //
 
 ?>
 
