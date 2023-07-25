@@ -20,7 +20,7 @@
 #### Para comenzar a codifiar en PHP debemos abrir las etiquetas del lenguaje. Esto se realiza de la siguente manera:
 
 ~~~
-<¿php
+<?php
 
 ?>
 ~~~
@@ -30,7 +30,7 @@
 #### Ahora veremos como imprimir un "!Hola mundo¡" en PHP, de 3 maneras distintas:
 
 ~~~
-<¿php
+<?php
 
 echo "!Hola mundo¡";
 
@@ -57,7 +57,7 @@ varias lineas */
 #### Las variables son valores que pueden ir cambiando a lo largo del codigo, estas se declaran así:
 
 ~~~
-<¿php
+<?php
 
 $nombre = '';
 
@@ -84,7 +84,7 @@ echo CONSTANTE;
 
 ~~~
 
-<¿php
+<?php
 
 // Recibir la información del formulario (con el metodo POST)
 $nombre =$_POST['txtnombre']
@@ -102,7 +102,7 @@ $nombre = 'nombre';
 
 ~~~
 
-<¿php
+<?php
 
 echo "Hola".$nombre; //esta forma de concatenar solo funciona con "echo"
 
