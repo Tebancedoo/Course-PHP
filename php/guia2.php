@@ -14,41 +14,67 @@
 
     <?php
 
-    //defino las variables a usar
-    $color1 = "";
-    $color2 = "";
-    $color3 = "";
-    $color4 = "";
-
-    $significado1 = "";
-    $significado2 = "";
-    $significado3 = "";
-    $significado4 = "";
-
     //defino los arrays
-    $arreglo = [ $color1  => "Amarrillo", $color2 => "Azul", $color3 => "Verde", $color4 => "Negro"];
 
-    $arreglo2 = [ $significado1 => "Alegría, originalidad e inteligencia", $significado2 => "", $significado3 => "", $significado4 => "Elegancia y poder", ];
+    $personas = array ( "Pedro Gonzales", "Luz Fonseca", "Laura Patiño" );
 
+    $direcciones = array ( "Calle 155", "Kr 39 sur", "Tv 55");
+
+    $telefonos = array ( "78965", "5555", "74400");
+
+    $cumpleaños = array ( "15 diciembre", "22 enero", "4 abril");
+
+    $colores = array (  "color1"  => "Amarrillo", "color2" => "Verde", "color3" => "Negro");
+
+    $significados = array (  "amarrillo" => "Alegría, originalidad e inteligencia", "verde" => "", "negro" => "Elegancia y poder" );
 
     echo "<thead>";
 
     echo "<tr>";
+
     echo "<th> Nombre </th>";
-    echo "<th> Dirrección</th>";
+    echo "<th> Dirección</th>";
     echo "<th> Telefono</th>";
     echo "<th> Fecha cumpleaños</th>";
     echo "<th> Color favorito</th>";
     echo "<th> Significado</th>";
+
     echo "</tr>";
 
     echo "</thead>";
 
     echo "<tbody>";
 
-    echo "<tr><td> Pedro gonzales </td> <td>Calle 155  </td> <td> 555 </td> <td>22/enero </td> <td>Amarrillo </td> <td>Calor </td> </tr>";
-    echo "<tr><td> Laura Herrera </td> <td>Calle 160  </td> <td> 888 </td> <td>10/diciembre </td> <td>Azul </td> <td>Frio </td> </tr>";
-    echo "<tr><td> Luis Rodriguez </td> <td>Calle 789  </td> <td> 333 </td> <td>15/septiembre </td> <td>Verde </td> <td> Naturaleza </td> </tr>";
+ 
+    // for each de personas
+
+    //foreach ($personas as $valor => $persona){ }
+
+    //foreach ($direcciones as $valor => $direccion){ }
+
+    //foreach ($telefonos as $valor => $telefono){ }
+
+    //foreach ($cumpleaños as $valor => $fecha){ }
+
+    //foreach ($significados as $valor => $significado){}
+
+    $i = 0;
+
+    foreach ($colores as $valor => $color){
+
+    echo "<tr><td> $personas[$i] </td> <td> $direcciones[$i]  </td> <td> $telefonos[$i] </td> <td> $cumpleaños[$i] </td> <td> $color </td> <td> $significados[$i] </td> </tr>"; 
+    echo $i;
+
+    $i ++;
+
+    
+
+    }
+
+    //$listadoEstudiantes[2]
+    
+    //echo "<tr><td> $persona </td> <td> $direccion  </td> <td> $telefono </td> <td> $fecha</td> <td> $color </td> <td> $significado </td> </tr>"; 
+
 
     echo "</tbody>";
 
